@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Lagarto
+comment0.text=\r\n\ Fazer\ com\ que\ o\ Lagarto\ atire\ automaticamente\ a\ cada\ \#\ segundos\r\n\ x\ 570\ y\ 537\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ seguirBee()
+comment3.params=
+comment3.target=void\ validarMouse()
+numComments=4
