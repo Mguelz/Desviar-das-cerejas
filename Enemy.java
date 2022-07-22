@@ -8,7 +8,7 @@ public class Enemy extends Actor
         move(Greenfoot.getRandomNumber(10)); 
         
         tocarBorda();
-        tocarEnemy();
+        tocarBee();
         tocarFire();
     }
     
@@ -18,10 +18,11 @@ public class Enemy extends Actor
         }
     }
     
-    public void tocarEnemy() {
+    public void tocarBee() {
         if (isTouching(Bee.class)) {
             removeTouching(Bee.class);
             getWorld().showText("A cereja te pegou e voce perdeu", 600, 300);
+            getWorld().showText("The cherry got you and you lost", 600, 320);
             Greenfoot.stop();
         }
     }

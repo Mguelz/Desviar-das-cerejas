@@ -21,6 +21,7 @@ public class Bee extends Actor
             setLocation(getX() + 7, getY());
         }
     }
+    
     public void validarMouse() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
         if(mouse != null) {

@@ -9,8 +9,9 @@ public class Fire extends Actor
         aoTocarEnemyRenascer();
         tocarOutroFire();
         tocarBorda();
+        //removerEnemy();
     }
-
+    
     public void aoTocarEnemyRenascer() {
         if (isTouching(Enemy.class)) {
             getWorld().addObject(new Enemy(), Greenfoot.getRandomNumber(1200), 4);
@@ -24,10 +25,17 @@ public class Fire extends Actor
     }
     
     public void tocarBorda() {
+        
         if (isAtEdge()){
             getWorld().removeObject(this);
         }
+        
     }
 
-    
+    public void removerEnemy(){
+        // esta causando o bug de tela branca ao tocar em dois Enemy, nao esta removendo ao tocar o primeiro Enemy.
+        if (isTouching(Enemy.class)){
+            //getWorld().removeObject(this);
+        }
+    }
 }

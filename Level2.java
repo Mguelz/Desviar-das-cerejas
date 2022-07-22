@@ -95,7 +95,7 @@ public class Level2 extends World
         addObject(planta27,902,154);
         Planta planta28 = new Planta();
         addObject(planta28,1082,125);
-        
+
         planta21.setLocation(766,107);
         planta27.setLocation(923,177);
         planta22.setLocation(422,106);
@@ -155,5 +155,29 @@ public class Level2 extends World
         planta221.setLocation(623,32);
         planta4.setLocation(684,63);
         planta216.setLocation(686,141);
+        Planta planta34 = new Planta();
+        addObject(planta34,12,584);
+        Planta2 planta222 = new Planta2();
+        addObject(planta222,1159,587);
+        Planta planta35 = new Planta();
+        addObject(planta35,893,418);
+        Planta planta36 = new Planta();
+        addObject(planta36,1099,359);
+        Planta planta37 = new Planta();
+        addObject(planta37,244,534);
+        Planta planta38 = new Planta();
+        addObject(planta38,640,338);
+        Planta planta39 = new Planta();
+        addObject(planta39,112,374);
+        Planta2 planta223 = new Planta2();
+        addObject(planta223,1082,443);
+        Planta2 planta224 = new Planta2();
+        addObject(planta224,1016,487);
+        Planta2 planta225 = new Planta2();
+        addObject(planta225,827,539);
+        Planta2 planta226 = new Planta2();
+        addObject(planta226,374,356);
+        Planta2 planta227 = new Planta2();
+        addObject(planta227,115,453);
     }
 }
