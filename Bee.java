@@ -8,9 +8,9 @@ public class Bee extends Actor
         setRotation(270);
         
         validarTeclado();
-        validarMouse();
+        atirar();
         tocarPlanta();
-        ProximoLevel();
+        proximoLevel();
     }
     
     public void validarTeclado() {
@@ -22,7 +22,7 @@ public class Bee extends Actor
         }
     }
     
-    public void validarMouse() {
+    public void atirar() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
         if(mouse != null) {
             if(mouse.getButton() == 1) {
@@ -44,7 +44,7 @@ public class Bee extends Actor
         }
     }
     
-    public void ProximoLevel() {
+    public void proximoLevel() {
         if(score == 35) {
             getWorld().showText("Parabéns você ganhou!", 600, 300); //getWorld().getWidht() - 60 para pegar o tamanho do mundo
             getWorld().showText("Congratulations you win!", 600, 320);

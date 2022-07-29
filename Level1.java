@@ -2,29 +2,32 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Level1 extends World
 {
-    // melhorado a forma com que as frutas inimigas spawnam no mundo
-    
-    //adicionar o turnTowards para versoes futuras
     public Level1()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1200, 600, 1); 
+        
         showText("Score: 0", 570, 20);
-        prepare();
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-
         showText("Level 1 ", 300, 20);
+        
+        prepare();
+        adicionarEnemy();
+        
+        
         // tocar musica durante o jogo
         //GreenfootSound musicaAbertura = new GreenfootSound("abertura.mp3"); / musicaAbertura.play();
+    }
+    
+    public void adicionarEnemy() {
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
+        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
     }
     
     private void prepare()

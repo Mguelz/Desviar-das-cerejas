@@ -23,6 +23,7 @@ public class Lagarto extends Actor
         MouseInfo mouse = Greenfoot.getMouseInfo();
         if(mouse != null) {
             if(mouse.getButton() == 1) {
+                getRotation();
                 getWorld().addObject(new FireBee(), getX(), getY());
             }
         }

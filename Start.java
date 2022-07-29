@@ -9,9 +9,6 @@ public class Start extends World
         
         addObject(new BotaoStart(), 853,340);
 
-        
-        //showText("Pressione o botão para jogar", 155, 20);
-        //showText("Press the button for start", 117, 40);
         showText("Pressione o botão para jogar", 829, 179);
         showText("Press the button for start", 810, 200);
         

@@ -20,9 +20,8 @@ public class Level2 extends World
         addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
         addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
         addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
-        addObject(new Lagarto(), 113, 77);
-        addObject(new Lagarto(), 1065, 77);
+        addObject(new Lagarto(), 568, 60);
+        //addObject(new Lagarto(), 1065, 77);
         
         showText("Level 2 ", 300, 20);
 

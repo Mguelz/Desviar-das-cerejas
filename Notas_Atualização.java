@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * 
  * ATUALIZAÇÕES FUTURAS:
  * 
- * 1- Colocar musica no jogoc (só falta achar uma musica)
+ * 1- Colocar musica no jogo (só falta achar uma musica)
  * 2- Colocar delay ao iniciar o jogo...
  * 3- Fazer com que o "jogador" não atire rapidamente (só poder atirar a cada x segundos)
  * 4- FireBee seja atira na direção em que o Lagarto estiver mirando, e não seguir a Bee

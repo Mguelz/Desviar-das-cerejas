@@ -10,6 +10,10 @@ public class Fire extends Actor
         tocarOutroFire();
         tocarBorda();
         //removerEnemy();
+        
+        //if (intersects((FireBee)getWorld().getObjects(FireBee.class).get(0))) {
+          //  removeTouching(FireBee.class);
+        //}
     }
     
     public void aoTocarEnemyRenascer() {
