@@ -3,16 +3,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * ADICIONADO NESTA VERSÃO:
  * Ao Enemy tocar no fire o Enemy se desloca para o topo do mundo.
+ * Ao matar 1 Enemy, criar mais 4 enemy (assim almentando a dificuldade)
  * 
  * ATUALIZAÇÕES FUTURAS:
  * 
- * 1- Colocar musica no jogo (só falta achar uma musica)
- * 2- Colocar delay ao iniciar o jogo...
- * 3- Fazer com que o "jogador" não atire rapidamente (só poder atirar a cada x segundos)
- * 4- FireBee seja atira na direção em que o Lagarto estiver mirando, e não seguir a Bee
- * 5- Se o Fire tocar FireBee fazer com que ele elimine o projetil inimigo
- * 6- Ao Fire tocar a Planta, remover projetil
- * 7- Lagarto atirar automaticamente
+ * 1 - Colocar musica no jogo (só falta achar uma musica)
+ * 2 - Colocar delay ao iniciar o jogo...
+ * 3 - Fazer com que o "jogador" não atire rapidamente (só poder atirar a cada x segundos)
+ * 4 - FireBee seja atira na direção em que o Lagarto estiver mirando
+ * 5 - Se o Fire tocar FireBee fazer com que ele elimine o PROJETIL inimigo
+ * 6 - Lagarto atirar automaticamente
  */
 public class Notas_Atualização extends World
 {

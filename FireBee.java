@@ -8,18 +8,22 @@ public class FireBee extends Actor
      */
     public void act()
     {
-        move(2);
-
+        mover();
         atirarNaDireção();
         tocarBorda();
     }
-
+    
+    public void mover(){
+        move(2);
+    }
+    
     public void atirarNaDireção() {
         if (getWorld().getObjects(Lagarto.class).size() > 0 ) {
             //turnTowards(getWorld().getObjects(Bee.class).get(0).getX(), getWorld().getObjects(Bee.class).get(0).getY());
-            //setRotation(65);
-            //turnTowards(570, 537);
-            setLocation(getX(), getY() + 5);
+            //setRotation(getY());
+            //turnTowards(getX(), 537);
+            //setLocation(getX(), getY() + 5);
+            
         }
     }
 

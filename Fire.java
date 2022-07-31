@@ -2,6 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Fire extends Actor
 {
+    /**
+     * Ao tocar FireBee, eliminar o projetil inimigo
+     */
     public void act()
     {
         setLocation(getX(), getY() - 5);

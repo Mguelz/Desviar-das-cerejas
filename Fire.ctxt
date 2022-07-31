@@ -2,6 +2,7 @@
 comment0.target=Fire
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\r\n\ Ao\ tocar\ FireBee,\ eliminar\ o\ projetil\ inimigo\r\n
 comment2.params=
 comment2.target=void\ aoTocarEnemyRenascer()
 comment3.params=
