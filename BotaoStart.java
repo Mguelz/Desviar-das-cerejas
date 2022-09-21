@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class BotaoStart here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *  Ao clicar neste botao sera redirecionado ao começo do jogo
  */
 public class BotaoStart extends Actor
 {
@@ -16,10 +13,10 @@ public class BotaoStart extends Actor
 
     public void act()
     {
-        clicarNoAtorParaTrocarMundo();
+        iniciarJogo();
     }
 
-    public void clicarNoAtorParaTrocarMundo() {
+    public void iniciarJogo() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
 
         if (mouse != null){

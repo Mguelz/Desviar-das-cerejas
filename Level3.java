@@ -1,11 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Level2 extends World
+public class Level3 extends World
 {
     // melhorado a forma com que as frutas inimigas spawnam no mundo
-    
     //adicionar o turnTowards para versoes futuras
-    public Level2()
+    public Level3()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1200, 600, 1); 
@@ -21,12 +20,12 @@ public class Level2 extends World
         addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
         addObject(new Enemy(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(100));
         addObject(new Lagarto(), 568, 60);
-        //addObject(new Lagarto(), 1065, 77);
+        addObject(new Lagarto(), 1065, 77);
         
-        showText("Level 2 ", 300, 20);
+        showText("Level 3", 300, 20);
 
 
-        Greenfoot.delay(150); // delay para começar o level
+        Greenfoot.delay(100);
         // tocar musica durante o jogo
         //GreenfootSound musicaAbertura = new GreenfootSound("abertura.mp3"); / musicaAbertura.play();
     }

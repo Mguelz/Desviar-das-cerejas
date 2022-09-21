@@ -2,8 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * ADICIONADO NESTA VERSÃO:
- * Ao Enemy tocar no fire o Enemy se desloca para o topo do mundo.
- * Ao matar 1 Enemy, criar mais 4 enemy (assim almentando a dificuldade)
+ * Ao Enemy tocar no fire o Enemy se desloca para o topo do mundo;
+ * Ao matar 1 Enemy, criar mais 4 enemy (assim almentando a dificuldade);
+ * Lagarto ao mundo(assim almentando a dificuldade).
  * 
  * ATUALIZAÇÕES FUTURAS:
  * 

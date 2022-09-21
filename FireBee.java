@@ -14,7 +14,8 @@ public class FireBee extends Actor
     }
     
     public void mover(){
-        move(2);
+        //move(2);
+        setLocation(getX(), getY() + 5);
     }
     
     public void atirarNaDireção() {
